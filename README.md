@@ -16,7 +16,7 @@ Click on the start button to start the timer and begin taking the coding quiz!
 If you click on the wrong answer, you get time deducted. If you click on the wrong or right answer, the button changes color accordingly. Once the timer is up, or the questions end, you see your final score and get to save your initials into a local highscore list.
 
 
-![playthrough](./assets/images/CodeQuiz.gif)
+![playthrough](./assets/images/CodeQuiz2.gif)
 
 ## License
 
