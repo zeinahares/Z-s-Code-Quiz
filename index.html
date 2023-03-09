@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+        <title>Code Quiz</title>
+    </head>
+
+    <main>
+        <div class="scores">
+            <h2>Highscores</h2>
+            <ol id="score-results"></ol>
+            <button id="clear">Clear Highscores</button>
+        </div>
+        <div class="quiz-contents">
+            <div id="title">
+                <h1>Z's Code Quiz</h1>
+                <p>
+                    Answer the following code-related questions within the time specified. 
+                    Careful, wrong answers have a <span class="penalty"> 5 </span> seconds penalty!
+                </p>
+                <button id="start-button">Start</button>
+            </div>
+            <div id="questions" class="hide">
+                <h2 id="title-q"></h2>
+                <ol class="answers"></div>
+            </div>
+
+            <div id="score-save" class="hide">
+                <h2>Time's up!</h2>
+                <p> Your score is <span id="final-score"></span>.</p>
+                <p>Enter your initials: <input type="text" id="initials"/>
+                    <button id="submit">Submit</button>
+                </p>
+            </div>
+        </div>
+        <div class="timer">
+            <h1> Time: <span class="time"> 10 </span>s</h1>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </main>
+</html>

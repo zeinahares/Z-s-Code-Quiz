@@ -1,0 +1,106 @@
+
+main {
+    margin-top: 115px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: rgb(247, 216, 230);
+}
+
+.scores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.quiz-contents {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    justify-content: center;
+}
+
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
+
+.start {
+    display: flex;
+}
+
+#title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score-save {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+#questions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+button {
+    background-color: yellow;
+    border-radius: 10px;
+    height: 45px;
+}
+
+.answerlist {
+    display: flex;
+    align-items: center;
+}
+
+.feedback {
+    font-weight: bold;
+}
+
+.wrong {
+    background-color: red;
+}
+
+.right {
+    background-color: limegreen;
+}
