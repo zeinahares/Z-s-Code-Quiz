@@ -29,6 +29,7 @@ var allquestions = [
 var timeEl = document.querySelector('.time');
 var penaltyEl = document.querySelector('.penalty');
 var answersEl = document.querySelector('.answers');
+var qnumEl = document.querySelector('.questions-number');
 
 var startButton = document.getElementById('start-button');
 var titleEl = document.getElementById('title');
@@ -44,13 +45,14 @@ var highscores = JSON.parse(window.localStorage.getItem('highscores')) || [];
 var time = allquestions.length * 20;
 var timer;
 var score;
-var pentalty = 20;
+var pentalty = 30;
 var questionIndex;
 
 savescoreEl.removeAttribute('id');
 questionsEl.removeAttribute('id');
 penaltyEl.textContent = pentalty;
 timeEl.textContent = time;
+qnumEl.textContent = allquestions.length;
 
 // start game func - when start is pressed begins timer and start Qs, begin hiding toggle
 function startGame() {

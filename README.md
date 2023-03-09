@@ -4,7 +4,7 @@
 
 I created a coding quiz website to strengthen my knowledge of JavaScript functions and syntax. I learned a lot in regards to making a page dynamic!
 
-Here's a link to try it out: 
+Here's a link to try it out: https://zeinahares.github.io/Z-s-Code-Quiz/
 
 ## Installation
 
